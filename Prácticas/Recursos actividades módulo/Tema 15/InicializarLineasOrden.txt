@@ -1,0 +1,114 @@
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (1, 1, 1, 421);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (1, 21, 2, 80);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (2, 11, 1, 95.4);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (3, 22, 1, 32);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (3, 23, 3, 38.4);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (3, 25, 1, 25.15);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (4, 3, 1, 625.5);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (5, 3, 1, 625.5);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (6, 12, 1, 36);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (7, 4, 1, 235);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (7, 22, 2, 32);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (7, 24, 1, 96);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (8, 14, 1, 96);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (9, 2, 5, 398.9);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (9, 26, 1, 148);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (10, 21, 1, 40);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (11, 2, 1, 79.78);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (11, 22, 1, 32);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (11, 23, 1, 12.8);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (11, 25, 1, 25.15);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (12, 1, 1, 421);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (13, 2, 1, 79.78);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (13, 25, 1, 25.15);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (14, 3, 1, 625.5);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (14, 4, 1, 235);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (14, 12, 1, 36);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (15, 14, 1, 115.25);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (16, 24, 2, 192);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (17, 25, 2, 50.3);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (17, 26, 1, 148);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (18, 1, 1, 421);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (19, 1, 1, 421);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (19, 4, 1, 235);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (20, 1, 1, 421);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (21, 22, 5, 160);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (22, 3, 1, 625.5);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (23, 1, 1, 421);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (23, 2, 1, 79.78);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (23, 3, 5, 3127.5);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (23, 23, 1, 12.8);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (24, 1, 2, 842);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (24, 2, 1, 79.78);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (25, 2, 1, 79.78);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (25, 14, 1, 115.25);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (26, 1, 2, 842);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (26, 3, 1, 625.5);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (27, 4, 1, 235);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (28, 1, 1, 421);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (29, 2, 1, 79.78);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (30, 14, 1, 115.25);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (31, 4, 1, 235);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (32, 1, 1, 421);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (32, 2, 1, 79.78);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (33, 1, 1, 421);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (33, 14, 1, 115.25);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (34, 1, 1, 421);
+INSERT INTO lineasorden (IdOrden, IdProducto, Cantidad, Subtotal)
+VALUES (34, 2, 1, 79.78);

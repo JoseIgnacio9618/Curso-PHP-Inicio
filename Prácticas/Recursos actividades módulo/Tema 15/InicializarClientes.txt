@@ -1,0 +1,22 @@
+INSERT INTO clientes (Nombre, Apellidos, Direccion, Poblacion, CodPostal, Provincia, Email, Password, Telefono, FechaNacimiento, Edad)
+VALUES ('Antonio', 'López Ayuso', 'C/ Colón, 14.', 'Almarche', '46423', 'Ciudad Real', 'alopez@vmail.com', 'password', '323523232', '1970-07-13', 34);
+INSERT INTO clientes (Nombre, Apellidos, Direccion, Poblacion, CodPostal, Provincia, Email, Password, Telefono, FechaNacimiento, Edad)
+VALUES ('Felipe', 'García Beltrán', 'Plaza Cataluña, 2.', 'Barcelona', '08032', 'Barcelona', 'fgarcia@vmail.com', 'password', '9348349643', '1956-02-01', null);
+INSERT INTO clientes (Nombre, Apellidos, Direccion, Poblacion, CodPostal, Provincia, Email, Password, Telefono, FechaNacimiento, Edad)
+VALUES ('Maria', 'Oliva Paz', 'C/ Lepanto, 4.', 'Tragacete', '53423', 'Cuenca', 'moliva@vmail.com', 'password', '5344423235', null, 30);
+INSERT INTO clientes (Nombre, Apellidos, Direccion, Poblacion, CodPostal, Provincia, Email, Password, Telefono, FechaNacimiento, Edad)
+VALUES ('Eusebio', 'Plaza Martí', 'C/ Figueres, 8.', 'Olot', '83423', 'Gerona', 'eplaza@vmail.com', 'password', '5239658422', '1933-05-14', null);
+INSERT INTO clientes (Nombre, Apellidos, Direccion, Poblacion, CodPostal, Provincia, Email, Password, Telefono, FechaNacimiento, Edad)
+VALUES ('Elena', 'Oliver Soriano', 'C/ Norte, 54.', 'Tomelloso', '24323', 'Ciudad Real', 'eoliver@vmail.com', 'password', '3234538475', '1985-11-11', 20);
+INSERT INTO clientes (Nombre, Apellidos, Direccion, Poblacion, CodPostal, Provincia, Email, Password, Telefono, FechaNacimiento, Edad)
+VALUES ('Luis', 'Maluenda Gil', 'C/ Jaime I, 32.', 'Jaca', '42333', 'Huesca', 'lmaluenda@vmail.com', 'password', '9383423399', '1978-03-30', null);
+INSERT INTO clientes (Nombre, Apellidos, Direccion, Poblacion, CodPostal, Provincia, Email, Password, Telefono, FechaNacimiento, Edad)
+VALUES ('Jaime', 'Pitarch Ros', 'C/ Miramar, 12.', 'Toledo', '04234', 'Toledo', 'jpitarch@vmail.com', 'password', '4234227473', '1963-06-24', 42);
+INSERT INTO clientes (Nombre, Apellidos, Direccion, Poblacion, CodPostal, Provincia, Email, Password, Telefono, FechaNacimiento, Edad)
+VALUES ('Juan', 'Cuenca Ruano', 'C/ Argentina, 5.', 'Manresa', '28423', 'Barcelona', 'jcuenca@vmail.com', 'password', '5342342348', null, 33);
+INSERT INTO clientes (Nombre, Apellidos, Direccion, Poblacion, CodPostal, Provincia, Email, Password, Telefono, FechaNacimiento, Edad)
+VALUES ('Alberto', 'Marín Tormo', 'C/ Riera, 34.', 'Colmenar', '14123', 'Madrid', 'amarin@vmail.com', 'password', '5234234233', '1990-02-09', 15);
+INSERT INTO clientes (Nombre, Apellidos, Direccion, Poblacion, CodPostal, Provincia, Email, Password, Telefono, FechaNacimiento, Edad)
+VALUES ('Mireia', 'Pérez Abril', 'C/ Mar, 52.', 'Algengibre', '23523 ', 'Albacete', 'mperez@vmail.com', 'password', '8423477723', '1977-07-07', 28);
+INSERT INTO clientes (Nombre, Apellidos, Direccion, Poblacion, CodPostal, Provincia, Email, Password, Telefono, FechaNacimiento, Edad)
+VALUES ('Nuria', 'Francis Córdoba', 'Avenida América, 4. Bajo.', 'Valencia', '46018', 'Valencia', 'nfrancis@mail.com', 'abedul', '965555555', '1979-07-04', 26);

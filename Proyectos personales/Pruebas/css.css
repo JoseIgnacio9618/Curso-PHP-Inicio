@@ -1,0 +1,49 @@
+*{background-color: rgb(47, 52, 75); 
+    margin: 0;
+    padding: 0;}
+
+#Cabecera{
+    
+    background-color: white;
+    
+}
+
+#Cabecera button{
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    height: 4em;
+    padding: 0px 2em;
+}
+
+#Cabecera button:hover{
+    color: white;
+
+    background-color: rgb(226, 48, 117);
+}
+
+
+#contenido{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;    
+}
+#imagen{
+
+width: 300%;
+min-width: 500px;
+
+}
+
+#parrafo h1,h4{
+    
+    background-color: aquamarine;
+    padding-bottom: 50px;
+    
+}
+
+
+
+
+

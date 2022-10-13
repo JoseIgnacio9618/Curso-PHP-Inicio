@@ -1,0 +1,60 @@
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Figurita cisne', 421, 'Figura de porcelana china que representa un cisne. Ideal como sobremesa.', 'images/decoracion/Deco01.jpg', 1);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Despertador', 79.78, 'Despertador de estilo antiguo.', 'images/decoracion/Deco02.jpg', 1);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Reloj de pared', 625.5, 'Reloj de pared estilo victoriano. Sus dimensiones son 45 centímetros de ancho y 1,85 metros de ancho. Color caoba.', 'images/decoracion/Deco03.jpg', 1);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Lámpara de pie', 235, 'Robusta lámpara de pie con base de madera y tejido traslúcido de color verde. Utiliza halógenos.', 'images/decoracion/Deco04.jpg', 1);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Objeto decoración 5', 0, 'Objeto decoración 5', 'images/Nodisponible.gif', 1);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Objeto decoración 6', 0, 'Objeto decoración 6', 'images/Nodisponible.gif', 1);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Objeto decoración 7', 0, 'Objeto decoración 7', 'images/Nodisponible.gif', 1);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Objeto decoración 8', 0, 'Objeto decoración 8', 'images/Nodisponible.gif', 1);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Objeto decoración 9', 0, 'Objeto decoración 9', 'images/Nodisponible.gif', 1);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Objeto decoración 10', 0, 'Objeto decoración 10', 'images/Nodisponible.gif', 1);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Ramo flores 1', 95.4, 'Ramo de flores de distinta procedencia en tonos claros. Ideal para centros de mesa.', 'images/flores/Flores01.jpg', 2);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Ramo flores 2', 36, 'Ramo de margaritas y flores similares. Pueden volverse a plantar.', 'images/flores/Flores02.jpg', 2);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Ramo flores 3', 70.1, 'Ramo flores silvestres.', 'images/flores/Flores03.jpg', 2);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Ramo flores 4', 115.25, 'Ramo de violetas y flores silvestres. Ideal como regalo.', 'images/flores/Flores04.jpg', 2);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Ramo flores 5', 0, 'Ramo flores 5', 'images/Nodisponible.gif', 2);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Ramo flores 6', 0, 'Ramo flores 6', 'images/Nodisponible.gif', 2);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Ramo flores 7', 0, 'Ramo flores 7', 'images/Nodisponible.gif', 2);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Ramo flores 8', 0, 'Ramo flores 8', 'images/Nodisponible.gif', 2);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Ramo flores 9', 0, 'Ramo flores 9', 'images/Nodisponible.gif', 2);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Ramo flores 10', 0, 'Ramo flores 10', 'images/Nodisponible.gif', 2);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Conjunto sacacorchos', 40, 'Con estos sacacorchos no habrá ninguna botella que se le resista.', 'images/home/Home01.jpg', 3);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Hucha cerdito', 32, 'Para ahorrar... qué mejor que esta simpática hucha.', 'images/home/Home02.jpg', 3);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Multiusos', 12.8, 'Abre cualquier botella, dispone de pequeña navaja, ... todo en uno.', 'images/home/Home03.jpg', 3);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Conjunto macetas', 96, 'Conjunto de macetas muy resistentes. Ideal para pisos de ciudad.', 'images/home/Home04.jpg', 3);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Ventilador', 25.15, 'Ventilador con 4 potencias distintas.', 'images/home/Home05.jpg', 3);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Conjunto destornilladores', 148, 'Completo conjunto de destornilladores con el que no se le resistirá ningún tornillo.', 'images/home/Home06.jpg', 3);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Objeto home 7', 0, 'Objeto home 7', 'images/Nodisponible.gif', 3);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Objeto home 8', 0, 'Objeto home 8', 'images/Nodisponible.gif', 3);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Objeto home 9', 0, 'Objeto home 9', 'images/Nodisponible.gif', 3);
+INSERT INTO productos (Nombre, Precio, Descripcion, ImageURL, IdCategoria)
+VALUES ('Objeto home 10', 0, 'Objeto home 10', 'images/Nodisponible.gif', 3);

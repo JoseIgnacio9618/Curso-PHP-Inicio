@@ -1,0 +1,2 @@
+
+document.getElementsByName("confirmacion").textcontent="";

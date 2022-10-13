@@ -1,0 +1,68 @@
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (1, '2004-08-12', '2004-08-14', 501);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (2, '2004-08-12', '2004-08-13', 95.4);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (3, '2004-08-13', '2004-08-15', 95.55);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (4, '2004-08-21', '2004-08-25', 625.5);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (4, '2004-08-22', '2004-08-25', 625.5);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (6, '2004-09-01', '2004-09-03', 36);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (10, '2004-09-02', '2004-09-04', 363);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (1, '2004-09-05', '2004-09-07', 96);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (7, '2004-09-10', '2004-09-12', 546.9);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (3, '2004-09-15', '2004-09-17', 40);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (5, '2004-10-04', '2004-10-07', 149.73);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (6, '2004-10-12', '2004-10-14', 421);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (7, '2004-10-15', '2004-10-17', 104.93);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (3, '2004-10-24', '2004-10-26', 896.5);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (2, '2004-11-05', '2004-11-07', 115.25);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (5, '2004-11-10', '2004-11-12', 192);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (7, '2004-11-11', '2004-11-13', 198.3);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (10, '2004-11-21', '2004-11-23', 421);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (7, '2004-12-12', '2004-12-14', 656);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (5, '2004-12-15', '2004-12-17', 421);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (6, '2004-12-22', '2004-12-22', 160);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (4, '2004-12-22', '2004-12-22', 625.5);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (1, '2005-02-17', '2005-02-20', 3641.08);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (10, '2005-02-23', '2005-02-25', 921.78);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (11, '2005-02-28', '2005-03-02', 195.03);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (11, '2005-03-01', '2005-03-03', 1467.5);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (11, '2005-03-01', '2005-03-03', 235);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (11, '2005-03-01', '2005-03-03', 421);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (11, '2005-03-01', '2005-03-03', 79.78);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (11, '2005-03-01', '2005-03-03', 115.25);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (11, '2005-03-01', '2005-03-03', 235);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (7, '2005-03-01', '2005-03-03', 500.78);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (1, '2005-03-01', '2005-03-03', 536.25);
+INSERT INTO ordenes (IdCliente, FechaOrden, FechaEnvio, Total)
+VALUES (7, '2005-03-11', '2005-03-13', 500.78);

@@ -1,0 +1,6 @@
+INSERT INTO categorias (Descripcion)
+VALUES ('Decoracion');
+INSERT INTO categorias (Descripcion)
+VALUES ('Flores');
+INSERT INTO categorias (Descripcion)
+VALUES ('Home');

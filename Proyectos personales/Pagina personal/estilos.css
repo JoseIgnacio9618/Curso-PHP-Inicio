@@ -1,0 +1,397 @@
+
+@font-face {
+    font-family: helvetica nue;
+    src: url(Fuente/Moon2.0-Bold.otf);
+}
+
+header{
+    width: 1300px;
+    display: inline;
+    margin:auto;
+    text-align: center;
+    color:#9acfcb}
+
+h1{
+    color:#24dbcc;
+    margin-bottom: 20px;}
+
+h1:hover{
+    color:#72a5a1}
+
+h2{font-size: 16px;
+    margin-top: -20px;
+    font-family: helvetica nue, sans-serif;}
+
+ol{ color:#72a5a1;
+    list-style:none;
+    text-align: center; 
+    margin-top: 40px;
+     margin-left: -45px;}
+
+
+     ol #lista1{display:inline-table;
+    width: 250px;  
+    margin: 0px -50px;}
+
+
+#lista1 a{
+    display:inline; 
+    font-size: 23px; 
+    margin: 0px 15px;
+    color:#72a5a1;
+    list-style:none; 
+    margin-top: 40px; 
+    text-decoration: none;}
+
+#lista1 a:hover{
+    color:#24dbcc}
+
+#Inicio{
+    height: 400px; 
+    display: block;
+   width: 100%;
+   
+}
+
+#imagenfondoinicio{
+    margin: 40px -10px;
+    width: 105%; 
+    height: 400px;
+    display:block;}
+
+#textoinicial{
+    
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 43px;
+    margin:-300px 20% 0;
+    min-width:700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Formacion{}
+
+
+
+
+
+
+
+
+#Lenguajes{ 
+    border:2px solid white;
+    width: 700px;
+    margin: auto;
+    min-height:  140px;}
+
+
+
+
+#Destrezas{ 
+    border:2px solid white;
+    width: 700px;
+    margin: auto;
+    min-height:  140px;}
+
+    .card {
+        width: 140px;
+        height: 140px;
+        background: rgb(46, 44, 44);
+        transition: all 300ms;
+        float: left;
+        border-radius: 15px;
+        text-align: center;
+        
+       }
+       
+       .card:hover {
+        opacity: 0.8;
+        transform: scale(1.10);
+       }
+    
+    #cartaHtml{background-color: rgb(204, 111, 6);
+                }
+    #fotohtml{
+        width: 105px;
+        height: 105px;
+        margin-top: 17px;}
+
+    #cartaCss{background-color: rgb(6, 115, 204);
+    }
+    #fotocss{
+        width: 200px;
+        height: 105px;
+        margin-top: 15px; 
+        margin-left: -28px;}
+    
+    #cartaJs{background-color: rgb(219, 203, 59)}   
+     
+    #fotojs{
+        width:105px;
+        height: 105px;
+        margin-top: 15px; 
+        margin-left: 3px;}
+
+    #cartaJquery{background-color: rgb(78, 78, 99)}
+
+    #fotojq{
+        width:130px;
+        height: 40px;
+        margin-top: 45px;}
+    
+    
+    #cartaGit{background-color: rgb(255, 255, 255)}
+    
+    
+
+    #fotoGit{
+        width:120px;
+        height: 120px;
+        margin-top: 7px;}
+
+    #cartaLess{background-color: rgb(255, 255, 255)}
+
+
+    #fotoLess{ width:200px;
+        height: 70px;
+        margin-top: 30px;
+        margin-left: -30px;}
+
+
+
+
+
+
+
+
+
+#Proyectos{}
+
+
+
+
+
+
+
+
+
+#contacto{ 
+    width: 100%; 
+    margin-top: 100px;     
+}
+#contacto2 h1{ 
+    width: 100%; 
+    margin-top: 25px;
+    font-size: 35px; 
+    text-align: center; 
+    text-decoration: none; 
+}
+
+#contacto h1{
+    font-size: 35px; 
+    text-align: center; 
+    text-decoration: none;}
+
+#Fotoperfil{
+    width: 250px;
+    border-radius: 50%; 
+    margin:10px auto;
+    display:block
+}
+#textosobremi{
+    color:#72a5a1;
+    font-size: 20px;
+    max-width: 700px;
+    text-align:center;
+    padding: 0px 100px;
+}
+
+#textosobremi2{
+    color:#72a5a1;
+    font-size: 20px;
+    max-width: 700px;
+    text-align:center;
+    padding: 0px 100px;
+    display: none;
+}
+
+#contacto p{
+    margin: 45px auto;}
+
+
+#cajaboton{
+    width: 100%;
+    text-align: center;}
+
+#botonleermas{
+    padding: 0.8em 1.8em;
+    border: 2px solid #17C3B2;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #17C3B2;     
+}
+
+#botonleermas::before{
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #17C3B2;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+ 
+}
+
+#botonleermas:hover{
+    color: #111;
+}
+
+#botonleermas:hover::before {   
+    width: 105%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Formulariocontacto{
+   
+    width: 700px; 
+    margin: 60px auto; 
+    min-height: 500px;
+    text-align: center;}
+
+
+input{font-size: 21px; width: 500px;margin-bottom: 20px;}
+
+.nombreformulario{margin-left: 10px;}
+.mensaje{margin-left: 10px; height: 250px;width: 500px;font-size: 21px}
+
+#titulosFormulario{
+    float: left;
+    
+    margin-top: -2px; 
+    color:#72a5a1;
+    font-size: 24px;
+    clear: both;
+}
+
+
+
+#botonenviar{
+    width: 150px;    
+    padding: 0.8em 1.8em;
+    border: 2px solid #17C3B2;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #17C3B2; 
+    margin-left: 30px;
+    margin-top:20px
+     }
+
+
+    #botonenviar::before{
+        content: '';
+        width: 0;
+        height: 300%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+        background: #17C3B2;
+        transition: .5s ease;
+        display: block;
+        z-index: -1;
+     
+    }
+    
+    #botonenviar:hover{
+        color: #111;
+    }
+    
+    #botonenviar:hover::before {   
+        width: 105%;
+    }
+
+
+   
+
+
+
+
+
+
+
+#foter{ 
+    font-size: 18px; 
+    color:#72a5a1;
+    margin: 70px 25%; 
+    min-width: 300px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: #1b1b19;
+    font-family:  helvetica nue;
+}
