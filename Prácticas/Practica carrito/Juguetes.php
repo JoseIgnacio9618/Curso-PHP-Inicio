@@ -28,6 +28,12 @@
         <a href="Libros.php" class="botonnavegacion">Libros</a>
         <button class="botonnavegacion" id="botoncarrito">Carrito</button>
     </div>
+    <div class="barranavegacion2">
+        <a href="index.php" class="botonnavegacion">Inicio</a>
+        <a href="Juguetes.php" class="botonnavegacion">Juguetes</a>
+        <a href="Libros.php" class="botonnavegacion">Libros</a>
+        <button class="botonnavegacion" id="botoncarrito">Carrito</button>
+    </div>
 
 
     <div class="carrito" id="carrito">

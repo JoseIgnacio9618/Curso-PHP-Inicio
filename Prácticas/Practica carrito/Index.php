@@ -56,8 +56,6 @@
         //obtenemos datos de la tabla, order by sirve para obtener los datos segun el orden de una columna especifica
 
         $sql= "SELECT * FROM `productos` ORDER BY `productos`.`Categoria` ASC";
-        //$sql= "SELECT * FROM `productos` WHERE Categoria = 'Juguete' "
-        //$sql= "SELECT * FROM `productos` WHERE Categoria = 'Libro' ";
         // al hacer el query nos da un resultado que aun no podemos utiolizar 
         $resultado = $conexion->query($sql);
 

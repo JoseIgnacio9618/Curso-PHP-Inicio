@@ -7,8 +7,8 @@
     if(isset($_SESSION['carrito'])){
     $carrito_mio=$_SESSION['carrito'];
     $_SESSION['carrito']=$carrito_mio;
-    $total_cantidad=0;
     }
+    
     // contamos numero de productos del carrito
     if(isset($_SESSION['carrito'])){
         for($i=0;$i<=count($carrito_mio)-1;$i ++){
@@ -28,37 +28,58 @@
 
     echo '<H1>Total = '.htmlspecialchars($totaleuros).' Euros</H1>'; 
 
-    //Hacemos una lista con los productos seleccionados por el cliente
+    //Hacemos una lista con los productos seleccionados por el cliente y la cantidad que lleva pedida de cada uno
     $titulos = [];
 
     if(isset($_SESSION['carrito'])){
         for($i=0;$i<=count($carrito_mio)-1;$i ++){
-            
-
             array_push($titulos, $carrito_mio[$i]["titulo"]);
-              
-            
-            //echo $carrito_mio[$i]["titulo"] ."&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp precio: ".htmlspecialchars($carrito_mio[$i]["precio"])." Euros".'<br><br>';
         }}
     
      $valores = array_count_values($titulos);
+
+     //Una vez tenemos los valores, realizamos una consulta para sacar la foto y el precio y elaborar una tarjeta con esos datos
      foreach ($valores as $key => $value) {
-        echo $key ."&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Cantidad: ".htmlspecialchars($value)." ".'<br><br>'; 
+
+        include_once "Librerias/DB.php";
+
+        
+        $sql= "SELECT * FROM `productos`  " ;
+        $resultado = $conexion->query($sql);
+        while($row = $resultado->fetch_assoc()){
+        
+        if($row["Nombre"]==$key){
+
+            echo'
+            <div class="articulocarrito">
+            <p>'.htmlspecialchars($key).'</p><p>x '.htmlspecialchars($value).'</p><p>Precio: '.htmlspecialchars($row["Precio"]*$value).'</p>
+            <button>Eliminar producto</button>
+            </div>
+            ' ;
+
+        };
+        
+       
+    
+    
+    
+    }
      }
-
-
 
     echo '
 
             <h3>Productos añadidos '.htmlspecialchars($totalcantidad).' productos</h3>
-        
+        <div id="botoneracarrito">
             <form method="POST" action="borrarcarrito.php">
             <input type="submit" class="Añadir" value="Borrar carrito">
             </form>
-            <br>
+            
             <form method="POST" action="Realizar pedido">
             <input type="submit" class="Añadir" value="Realizar pedido">
             </form>
+
+        </div>
             ';
+        
     
     ?>
