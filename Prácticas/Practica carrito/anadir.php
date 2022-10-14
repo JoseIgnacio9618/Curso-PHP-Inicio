@@ -7,6 +7,7 @@ session_start();
 	if(isset($_SESSION['carrito'])){
 		$carrito_mio=$_SESSION['carrito'];
 		if(isset($_POST['nombre'])){
+			
 			$titulo=$_POST['nombre'];
 			$precio=$_POST['precio'];
 			$cantidad=$_POST['cantidad'];

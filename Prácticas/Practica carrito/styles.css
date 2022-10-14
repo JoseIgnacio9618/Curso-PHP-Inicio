@@ -4,17 +4,21 @@
 .barranavegacion{
 
     height: 30px;
-    border: 2px solid black;
+    
+    position: fixed;
+    z-index: 100;
+    width: 100%;
     background-color: #212121;
     color: white;
     padding: 15px;
     margin: -8px;
-    margin-bottom: 10px;
+    
     
 }
 
 #botoncarrito{
-    float:right
+    float:right;
+    margin-right: 2%;
 }
 
 
@@ -71,7 +75,9 @@
 
 .carrito{
     display: none;
-    position: absolute;
+    position: fixed;
+    z-index: 100;
+    height: 100vh;
     width: 30%;
     min-width: 300px;
     padding: 20px;
@@ -92,13 +98,16 @@
 /* Contenedor productos*/
 
 .contenedor{
-    width: 90%;
-    gap: 4%;
+    width: 100%;
+    gap:5%;
+    
     align-items: center;
     margin: auto;
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
+    
+    
     
 }
 
@@ -107,8 +116,10 @@
 /* Tarjeta producto*/
 
 .producto {
+  
     padding: 2%;
     width: 15%;
+    min-height: 400px;
     min-width: 200px;
     text-align: center;
     transition: all 300ms;
@@ -143,7 +154,7 @@ p{font-weight: 1000;
     -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
     box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
     transition: all 250ms;
-    overflow: hidden;
+    overflow:visible;
    }
    
    .Añadir::before {

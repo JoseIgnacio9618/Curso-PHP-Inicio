@@ -31,64 +31,10 @@
 
 
     <div class="carrito" id="carrito">
-        
-    
+       
     <?php
     
-    
-    
-    $totalcantidad=0;
-    $totaleuros=0;
-    if(isset($_SESSION['carrito'])){
-    $carrito_mio=$_SESSION['carrito'];
-    $_SESSION['carrito']=$carrito_mio;
-    $total_cantidad=0;
-    }
-    // contamos numero de productos del carrito
-    if(isset($_SESSION['carrito'])){
-        for($i=0;$i<=count($carrito_mio)-1;$i ++){
-        if($carrito_mio[$i]!=NULL){ 
-        $total_cantidad ++ ;
-        $totalcantidad += $total_cantidad;
-        $total_cantidad=0;
-        
-        }}}
-    // contamos numero de euros del carrito
-    if(isset($_SESSION['carrito'])){
-            for($i=0;$i<=count($carrito_mio)-1;$i ++){
-            if($carrito_mio[$i]["precio"]!=NULL){
-                 
-            $totaleuros +=$carrito_mio[$i]["precio"];
-            }}}
-
-    echo '<H1>Total = '.htmlspecialchars($totaleuros).' Euros</H1>'; 
-
-    //Hacemos una lista con los productos seleccionados por el cliente
-
-    if(isset($_SESSION['carrito'])){
-        for($i=0;$i<=count($carrito_mio)-1;$i ++){
-            
-         
-            
-            echo $carrito_mio[$i]["titulo"] ."&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp precio: ".htmlspecialchars($carrito_mio[$i]["precio"])." Euros".'<br><br>';
-
-
-        }}
-    
-    
-    echo '
-
-            <h3>Productos añadidos '.htmlspecialchars($totalcantidad).' productos</h3>
-        
-            <form method="POST" action="borrarcarrito.php">
-            <input type="submit" value="Borrar carrito">
-            </form>
-
-            <br>
-            <form method="POST" action="Realizar pedido">
-            <input type="submit" value="Realizar pedido">
-            </form>
-            ';
+    include_once "crearcarrito.php"
     
     ?>
     </div>
