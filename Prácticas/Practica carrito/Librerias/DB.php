@@ -1,8 +1,8 @@
 <?php
 
 $servidor="localhost";
-$nombreusuario= "root";
-$contraseña= "";
+$nombreusuario= "Pruebas 1";
+$contraseña= "pardopere1";
 $db = "pruebas master";
 
 $conexion= new mysqli($servidor,$nombreusuario,$contraseña,$db);

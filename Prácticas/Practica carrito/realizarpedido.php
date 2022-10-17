@@ -1,14 +1,62 @@
+
+<?php
+    include_once "sesion.php";
+    
+	
+    ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    <?php include 'styles.css'; ?>
+    </style>
+    
+    <title>Inicio Tienda</title>
+</head>
+<body>
+    
+
+    
+
+
+
+
+    <div class="barranavegacion">
+        <a href="index.php" class="botonnavegacion">Inicio</a>
+        <a href="Juguetes.php" class="botonnavegacion">Juguetes</a>
+        <a href="Libros.php" class="botonnavegacion">Libros</a>
+        
+    </div>
+    <div class="barranavegacion2">
+        <a href="index.php" class="botonnavegacion">Inicio</a>
+        <a href="Juguetes.php" class="botonnavegacion">Juguetes</a>
+        <a href="Libros.php" class="botonnavegacion">Libros</a>
+        
+    </div>
+
+
+   
+
+
+    
+<div class="Factura">
+
+
 <?php
     
-    
+    error_reporting(0);
     
     $totalcantidad=0;
     $totaleuros=0;
+    $total_cantidad=0;
     if(isset($_SESSION['carrito'])){
     $carrito_mio=$_SESSION['carrito'];
     $_SESSION['carrito']=$carrito_mio;
     }
-    
+   
     // contamos numero de productos del carrito
     if(isset($_SESSION['carrito'])){
         for($i=0;$i<=count($carrito_mio)-1;$i ++){
@@ -26,14 +74,18 @@
             $totaleuros +=$carrito_mio[$i]["precio"];
             }}}
 
-    echo '<H1>Total = '.htmlspecialchars($totaleuros).' Euros</H1>'; 
+    echo '<hgroup><H1>Total = '.htmlspecialchars($totaleuros).' Euros</H1>';
+    echo '<H3>Estos son tus productos, realiza algun cambio si lo ves necesario.</H3></hgroup>'; 
 
     //Hacemos una lista con los productos seleccionados por el cliente y la cantidad que lleva pedida de cada uno
     $titulos = [];
 
     if(isset($_SESSION['carrito'])){
         for($i=0;$i<=count($carrito_mio)-1;$i ++){
-            array_push($titulos, $carrito_mio[$i]["titulo"]);
+            
+            
+                array_push($titulos, $carrito_mio[$i]["titulo"]);
+                       
         }}
     
      $valores = array_count_values($titulos);
@@ -46,40 +98,42 @@
         
         $sql= "SELECT * FROM `productos`  " ;
         $resultado = $conexion->query($sql);
+
+
         while($row = $resultado->fetch_assoc()){
-        
         if($row["Nombre"]==$key){
 
             echo'
             <div class="articulocarrito">
             <p>'.htmlspecialchars($key).'</p><p>x '.htmlspecialchars($value).'</p><p>Precio: '.htmlspecialchars($row["Precio"]*$value).'</p>
-            <button>Eliminar producto</button>
+           
+            <form method="POST" action="Apis/borrarproducto.php">
+            <input type="hidden" name="nombre" value="'.htmlspecialchars($key).'">
+            <input type="submit" value="eliminar producto">
+            </form>
             </div>
             ' ;
 
         };
         
-       
+        $_SESSION['carrito']=$carrito_mio;
     
     
     
     }
      }
 
-    echo '
-
-            <h3>Productos añadidos '.htmlspecialchars($totalcantidad).' productos</h3>
-        <div id="botoneracarrito">
-            <form method="POST" action="borrarcarrito.php">
-            <input type="submit" class="Añadir" value="Borrar carrito">
-            </form>
-            
-            <form method="POST" action="Realizar pedido">
-            <input type="submit" class="Añadir" value="Realizar pedido">
-            </form>
-
-        </div>
-            ';
+   
         
     
-    ?>
+    ?>  
+
+
+</div>
+
+<script src="main.js"></script>
+
+
+
+</body>
+</html>

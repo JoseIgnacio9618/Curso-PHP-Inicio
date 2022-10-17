@@ -1,3 +1,9 @@
+
+<?php
+    include_once "sesion.php";
+    
+	
+    ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,11 +19,7 @@
 <body>
     
 
-    <?php
-    include_once "sesion.php";
     
-	
-    ?>
 
 
 
@@ -40,7 +42,7 @@
        
     <?php
     
-    include_once "crearcarrito.php"
+    include_once "Apis/crearcarrito.php"
     
     ?>
     </div>

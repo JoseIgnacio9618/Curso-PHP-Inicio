@@ -6,4 +6,10 @@ function enseñarEsconder() {
     
 }
 
+
+
+
+
+
+
 document.getElementById("botoncarrito").addEventListener("click",enseñarEsconder)

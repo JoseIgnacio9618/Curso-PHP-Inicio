@@ -1,4 +1,14 @@
 
+@font-face {
+  font-family: "letra";
+  src: url(Fuentes/Asap-Italic-VariableFont_wght.ttf);
+}
+
+*{
+  font-family: "letra";
+}
+
+
 /* Barra de navegación*/
 
 .barranavegacion{
@@ -95,10 +105,19 @@
 
   display: flex;
   flex-direction: row;
+  gap:10%;
 
 }
 .articulocarrito p{
+  width: 25%;
   padding: 1%;
+}
+.articulocarrito button{
+  width: 25%;
+  height: 40px;
+}
+.articulocarrito input{
+  height: 50px;
 }
 #botoneracarrito{
   gap:1%;
@@ -192,4 +211,17 @@ p{font-weight: 1000;
    
    .Añadir:hover::before {
     width: 100%;
+   }
+
+
+
+   /*
+   formulario de pago 
+   */
+
+   .Factura{margin-top: 50px;}
+   .Factura hgroup{
+    
+    width: 100%;
+    text-align: center;
    }

@@ -1,3 +1,10 @@
+
+<?php
+    include_once "sesion.php";
+    
+	
+    ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,11 +20,7 @@
 <body>
     
 
-    <?php
-    include_once "sesion.php";
     
-	
-    ?>
 
 
 
@@ -41,7 +44,7 @@
     
     <?php
     
-    include_once "crearcarrito.php"
+    include_once "Apis/crearcarrito.php"
     
     ?>
     </div>
@@ -67,7 +70,7 @@
 
             while($row = $resultado->fetch_assoc()){
                 
-                echo '<form class="producto" method="POST" action="anadir.php">
+                echo '<form class="producto" method="POST" action="Apis/anadir.php">
                 <img src="img/'.htmlspecialchars($row["Foto nombre"]).'" >
                 <input name="nombre" type="hidden" value="'.htmlspecialchars($row["Nombre"]).'">
                 <p>'.htmlspecialchars($row["Nombre"]).' </p>
