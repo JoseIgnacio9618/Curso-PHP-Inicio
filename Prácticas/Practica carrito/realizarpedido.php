@@ -10,6 +10,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <style>
     <?php include 'styles.css'; ?>
     </style>
@@ -18,11 +19,6 @@
 </head>
 <body>
     
-
-    
-
-
-
 
     <div class="barranavegacion">
         <a href="index.php" class="botonnavegacion">Inicio</a>
@@ -90,7 +86,7 @@
     
      $valores = array_count_values($titulos);
 
-     //Una vez tenemos los valores, realizamos una consulta para sacar la foto y el precio y elaborar una tarjeta con esos datos
+     //Una vez tenemos los valores, realizamos una consulta para sacar el precio y elaborar una tarjeta con esos datos
      foreach ($valores as $key => $value) {
 
         include_once "Librerias/DB.php";
@@ -118,18 +114,23 @@
         
         $_SESSION['carrito']=$carrito_mio;
     
-    
-    
-    }
-     }
-
-   
         
     
-    ?>  
+    }
+    
+}  ;
+
+   ?> 
+
+<form action="Pago.php" method="post">
+
+<input type="submit" value="PAGAR">
 
 
-</div>
+</form>
+
+
+
 
 <script src="main.js"></script>
 
