@@ -38,7 +38,7 @@ $session = \Stripe\Checkout\Session::create([
   
   "billing_address_collection"=>"required",
   'mode' => 'payment',
-  'success_url' => 'http://localhost/Curso%20PHP/Curso-PHP-Inicio/Pr%C3%A1cticas/Practica%20carrito/Pagorealizado.php',
+  'success_url' => 'http://localhost/CURSO-PHP-INICIO/Pr%C3%A1cticas/Practica%20carrito/Pagorealizado.php',
   'cancel_url' => 'http://example.com/cancel',
 ]);
 
@@ -62,6 +62,8 @@ $session = \Stripe\Checkout\Session::create([
           sessionId: "<?php echo $session->id; ?>"
         });
       });
+
+      document.getElementById("checkout-button").click();
     </script>
   </body>
 </html>
