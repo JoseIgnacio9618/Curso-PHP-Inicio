@@ -41,6 +41,7 @@
         }}
     
      $valores = array_count_values($titulos);
+    var_dump($valores);
 
      //Una vez tenemos los valores, realizamos una consulta para sacar la foto y el precio y elaborar una tarjeta con esos datos
      foreach ($valores as $key => $value) {

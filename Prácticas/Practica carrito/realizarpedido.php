@@ -122,9 +122,9 @@
 
    ?> 
 
-<form action="Pago.php" method="post">
+<form action="Pago.php" class="Pagar" method="post">
 
-<input type="submit" value="PAGAR">
+<input type="submit"  class="botonpagar" value="Realizar pago">
 
 
 </form>

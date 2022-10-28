@@ -52,7 +52,7 @@ $session = \Stripe\Checkout\Session::create([
     <script src="https://js.stripe.com/v3/"></script>
   </head>
   <body>
-    <button id="checkout-button">Checkout</button>
+    <button id="checkout-button" hidden>Checkout</button>
     <script>
       var stripe = Stripe('pk_test_51LuW0DBiZIinvGztIeWx5YcsZJeAb1UpM4cwEe5N1yesXzymKgNarbWIcKSu5IolWyWLHtjmrU5Qc8IVPYjHyr6m00B02ZK7MS');
       const btn = document.getElementById("checkout-button")
