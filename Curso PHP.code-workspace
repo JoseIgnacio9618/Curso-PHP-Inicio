@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../Curso PHP"
+		},
+		{
+			"path": "../../../Users/José Ignacio/Desktop/Apuntes-Master-Full-Stack/Master Full stack developer"
+		},
+		{
+			"path": "../../../Users/José Ignacio/Desktop/Programacion"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Programación"
+	}
+}
