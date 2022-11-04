@@ -1,0 +1,3 @@
+xampp con php 8
+Composer 
+Laravel9
