@@ -16,11 +16,13 @@ return new class extends Migration
         Schema::create('Cursos', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->text('text');
-            $table->string('email')->unique();
+            $table->text('text')->nullable();
+            $table->text('description')->nullable();
+            $table->string('email')->unique()->nullable();
             $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
-            $table->rememberToken();
+            $table->text('categoria')->nullable();
+            $table->string('password')->nullable();
+            $table->rememberToken()->nullable();
             $table->timestamps();
         });
     }
