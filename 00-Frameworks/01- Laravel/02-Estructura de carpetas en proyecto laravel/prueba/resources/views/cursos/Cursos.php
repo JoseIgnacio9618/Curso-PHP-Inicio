@@ -7,6 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <H1>"En esta pagina podras crear un curso"</H1>
+    <H1>"Bienvenido a la pagina principal de cursos"</H1>
+    
+    <ul>
+
+    <?php
+    foreach ($cursos as $key => $value) {
+       echo '<li>'. htmlspecialchars($value['name']) . '</li>' ;
+    }
+    ?>
+
+    </ul>
 </body>
 </html>

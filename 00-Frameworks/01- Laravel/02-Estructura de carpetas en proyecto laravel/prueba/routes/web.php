@@ -36,7 +36,7 @@ Route::controller(MultipleController::class)->group(function(){
 
     Route::get('users', 'index');
 
-    Route::get('cursos', 'create');
+    Route::get('cursos', 'Cursos');
     
     Route::get('mensaje/{curso}', 'show');
 
