@@ -21,8 +21,13 @@ class MultipleController extends Controller
 
     }
 
-    public function show($curso){
+    public function create(){
 
-        return view("cursos.show",["curso"=>$curso]);
+        return view("cursos.create");
+    }
+
+    public function mostrar(){
+
+        return view("cursos.mostrarcurso");
     }
 }

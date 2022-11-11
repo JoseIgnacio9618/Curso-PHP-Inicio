@@ -38,7 +38,9 @@ Route::controller(MultipleController::class)->group(function(){
 
     Route::get('cursos', 'Cursos');
     
-    Route::get('mensaje/{curso}', 'show');
+    Route::get('crearCurso', 'create')->name("crearCurso");
+
+    Route::get('mostrarCurso', 'mostrar')->name("mostrarCurso");
 
 });
 
