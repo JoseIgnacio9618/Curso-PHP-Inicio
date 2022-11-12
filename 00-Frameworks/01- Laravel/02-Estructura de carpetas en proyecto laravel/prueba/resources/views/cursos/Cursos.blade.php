@@ -20,10 +20,6 @@
        <li> 
         <a href="{{route('mostrarCurso')}}"> {{$curso->name}} </a>
     </li>
-    
-
-        
-    
     @endforeach
     {{$cursos->links()}}
     </ul>
