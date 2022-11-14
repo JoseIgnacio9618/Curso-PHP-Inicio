@@ -36,12 +36,15 @@ Route::controller(MultipleController::class)->group(function(){
 
     Route::get('users', 'index');
 
-    Route::get('cursos', 'Cursos');
+    Route::get('cursos', 'Cursos')->name("cursos");
     
     Route::get('crearCurso', 'create')->name("crearCurso");
 
-    Route::get('mostrarCurso', 'mostrar')->name("mostrarCurso");
+    Route::get('mostrarCurso/{id}', 'mostrar')->name("mostrarCurso");
 
+    Route::post('cursosañadir', 'añadirCurso')->name('cursos.añadir');
+
+    Route::get('editarCurso/{id}', 'editar')->name("editarCurso");
 });
 
 

@@ -26,8 +26,32 @@ class MultipleController extends Controller
         return view("cursos.create");
     }
 
-    public function mostrar(){
+    public function mostrar($id){
 
-        return view("cursos.mostrarcurso");
+        $curso = curso::find($id);
+        
+        return view("cursos.mostrarcurso",compact('curso'));
+    }
+
+
+    public function añadirCurso(Request $request){
+
+        $curso = new Curso();
+
+        $curso->name = $request->name;
+        $curso->description = $request->description;
+        $curso->categoria = $request->categoria;
+
+        $curso->save();
+
+
+        return redirect()->route('mostrarCurso', $curso->id);
+    }
+
+    public function editar($id){
+
+        $curso = curso::find($id);
+
+        return view("cursos.editarCurso",compact('curso'));
     }
 }
