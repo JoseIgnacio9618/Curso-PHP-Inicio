@@ -5,6 +5,9 @@ use App\Models\curso;
 
 use Illuminate\Http\Request;
 
+use App\Http\Requests\anadirCurso;
+
+
 class MultipleController extends Controller
 {
  
@@ -34,8 +37,10 @@ class MultipleController extends Controller
     }
 
 
-    public function añadirCurso(Request $request){
+    public function añadirCurso(anadirCurso $request){
 
+        
+        
         $curso = new Curso();
 
         $curso->name = $request->name;
@@ -54,4 +59,23 @@ class MultipleController extends Controller
 
         return view("cursos.editarCurso",compact('curso'));
     }
+
+    public function update(Request $request,$id){
+
+        $request->validate([
+            'name'=>'required|min:3' ,
+            'description'=>'required',
+            'categoria'=>'required',
+        ]);
+
+        $curso = curso::find($id);
+
+        $curso->name = $request->name;
+        $curso->description = $request->description;
+        $curso->categoria = $request->categoria;
+
+        $curso->save();
+
+        return redirect()->route('mostrarCurso', $curso->id);
+}
 }

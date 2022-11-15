@@ -45,6 +45,10 @@ Route::controller(MultipleController::class)->group(function(){
     Route::post('cursosañadir', 'añadirCurso')->name('cursos.añadir');
 
     Route::get('editarCurso/{id}', 'editar')->name("editarCurso");
+
+    Route::put('actualizar/{id}', 'update')->name("actualizarCurso");
+
+    
 });
 
 
