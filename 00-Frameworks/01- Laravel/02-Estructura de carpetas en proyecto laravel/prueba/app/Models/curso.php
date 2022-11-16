@@ -21,4 +21,6 @@ class curso extends Model
         set: fn($value)=>strtolower($value)
         );
     }
+
+    protected $guarded =['status'];
 }

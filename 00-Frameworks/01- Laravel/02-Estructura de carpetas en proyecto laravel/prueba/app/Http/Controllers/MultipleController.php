@@ -41,13 +41,22 @@ class MultipleController extends Controller
 
         
         
-        $curso = new Curso();
+        // $curso = new Curso();
 
-        $curso->name = $request->name;
-        $curso->description = $request->description;
-        $curso->categoria = $request->categoria;
+        // $curso->name = $request->name;
+        // $curso->description = $request->description;
+        // $curso->categoria = $request->categoria;
 
-        $curso->save();
+        // $curso->save();
+
+        // $curso = Curso::create([
+        //     'name'=>$request->name,
+        //     'description'=>$request->description,
+        //     'categoria'=>$request->categoria
+        // ])
+
+
+        $curso = curso::create([$request->all()]);
 
 
         return redirect()->route('mostrarCurso', $curso->id);
@@ -70,11 +79,13 @@ class MultipleController extends Controller
 
         $curso = curso::find($id);
 
-        $curso->name = $request->name;
-        $curso->description = $request->description;
-        $curso->categoria = $request->categoria;
+        // $curso->name = $request->name;
+        // $curso->description = $request->description;
+        // $curso->categoria = $request->categoria;
 
-        $curso->save();
+        // $curso->save();
+
+        $curso->update($request->all());
 
         return redirect()->route('mostrarCurso', $curso->id);
 }

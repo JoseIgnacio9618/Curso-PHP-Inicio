@@ -29,4 +29,19 @@ class anadirCurso extends FormRequest
             'categoria'=>'required',
         ];
     }
+
+    public function attributes()
+    {
+
+        return[
+           'name'=> 'nombre del curso',
+        ];
+    }
+
+    public function messages()
+    {
+        return[
+            'description.required'=> 'El campo descripcion es requerido guarro ',
+         ];    
+    }
 }
