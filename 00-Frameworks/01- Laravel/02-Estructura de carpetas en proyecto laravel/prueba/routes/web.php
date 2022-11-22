@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\emailController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MultipleController;
@@ -34,7 +35,7 @@ Route::get('mensaje/{curso}', [MultipleController::class,'show']);
 // VERSION SIMPLIFICADA
 Route::controller(MultipleController::class)->group(function(){
 
-    Route::get('users', 'index');
+    Route::get('', 'index')->name('index');
 
     Route::get('cursos', 'Cursos')->name("cursos");
     
@@ -48,9 +49,17 @@ Route::controller(MultipleController::class)->group(function(){
 
     Route::put('actualizar/{id}', 'update')->name("actualizarCurso");
 
+    Route::delete('eliminar/{id}', 'destroy')->name("eliminarCurso");
+
     
 });
 
+
+
+Route::controller(emailController::class)->group(function(){
+
+    Route::get('contacto', 'contacto')->name('contacto');
+});
 
 
 

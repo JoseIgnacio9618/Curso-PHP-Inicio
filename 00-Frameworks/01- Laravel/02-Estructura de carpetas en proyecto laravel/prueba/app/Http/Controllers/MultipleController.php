@@ -29,9 +29,9 @@ class MultipleController extends Controller
         return view("cursos.create");
     }
 
-    public function mostrar($id){
-
-        $curso = curso::find($id);
+    public function mostrar(curso $id){    
+        
+        $curso = $id;
         
         return view("cursos.mostrarcurso",compact('curso'));
     }
@@ -88,5 +88,11 @@ class MultipleController extends Controller
         $curso->update($request->all());
 
         return redirect()->route('mostrarCurso', $curso->id);
-}
+    }
+     
+    public function destroy($id){
+        $curso = curso::find($id);
+        $curso->delete();
+        return redirect()->route('cursos');
+    }
 }

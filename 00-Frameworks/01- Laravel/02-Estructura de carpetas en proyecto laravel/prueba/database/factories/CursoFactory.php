@@ -4,7 +4,7 @@ namespace Database\Factories;
 
 use App\Models\curso;
 use Illuminate\Database\Eloquent\Factories\Factory;
-
+use Illuminate\Support\Str;
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\curso>
  */
@@ -20,8 +20,11 @@ class CursoFactory extends Factory
 
     public function definition()
     {
+
+        $name=$this->faker->sentence();
         return [
-            'name'=> $this->faker->sentence(),
+            'name'=> $name,
+            'slug'=> Str::slug($name,'-'),
             'description'=> $this->faker->paragraph(),
             'email'=> $this->faker->sentence(),
             
